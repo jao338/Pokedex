@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+
+    <script defer src="../js/script.js"></script>
     <link rel="icon" href="../favicons/favicon-16x16.png">
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
     
     <main>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
+        <img src="#"
             alt="pokemon" class="pokemon-img">
 
             <h1 class="pokemon-dados">
-
-                <span class="pokemon-num">4</span> - 
-                <span class="pokemon-nome">charmander</span>
+                <span class="pokemon-num"></span> - 
+                <span class="pokemon-nome"></span>
             </h1>
 
             <form class="busca">
-                <input type="search" name="busca" placeholder="Name or number" class="busca-input">
+                <input type="search" name="busca" placeholder="Name or number" class="busca-input" required>
             </form>
+
+            <div class="buttons">
+
+                <button class="button btn-prev">Prev &lt;</button>
+                <button class="button btn-next">Next &gt;</button>
+                
+            </div>
 
         <img class="pokedex" src="../images/pokedex.png" alt="pokedex">
     </main>
